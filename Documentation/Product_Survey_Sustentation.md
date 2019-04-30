@@ -26,6 +26,6 @@ Usando como guia otras aplicaciones, implementamos nuestras funcionalidades refe
 <center><img src="http://i64.tinypic.com/2lk8v28.jpg"/></center>
 
 # Sustentación
-Para poder complementar la investigación, realizamos una encuesta que nos sirvió para poder guiarnos en el Shadowing y poder aplicar lo aprendido.
+Para poder complementar la investigación, creamos una encuesta y utilizamos las preguntas como base para poder guiarnos en el Shadowing y poder aplicar lo aprendido.
 
 [Encuesta Yape Spots](https://forms.gle/Ux4gxsWgjyVaVQ6k7)
