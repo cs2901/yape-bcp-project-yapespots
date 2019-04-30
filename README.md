@@ -1,9 +1,23 @@
 # Yape Spots
 
 ## 1. Project General Information
+**Target user profile:**
+
+People between the age of 18 and 34, who have a BCP, BBVA or Interbank account and an smartphone.
+
+**Value proposition:**
+
+Make business that have Yape (Yape spots) visible to the Yape community.
+
+**User stories:**
+
+All the user stories are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/labels/type.story).
+
+And the prioritizing phase of them are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/projects/1).
+
 
 ## 2. Use Cases
-All the use cases are available [there.](/documentation/use_case.md)
+All the use cases are available [here.](/documentation/use_case.md)
 
 ## 3. Non-functional requirements
 
@@ -34,4 +48,3 @@ It is a bidimensional code that codifies and storage data (e.g. a identifier num
 Is a localization position satellite-based that provides latitude, longitude, and altitude.
 
 ## 5. Product survey
-
