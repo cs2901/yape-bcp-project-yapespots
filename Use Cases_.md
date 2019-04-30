@@ -43,16 +43,16 @@ Resume at step 9
 ### **User:** Yape User
 ##### **Preconditions:** User must have consumed something on the YapeSpot and have enough balance to pay it.
 ##### **MSS:**
-1.User opens Yape app.
-	2.User logs in.
-	3.User presses on QR scanner.
-	4.Yape scans the YapeSpot’s QR code.
-	5.User inputs the amount of money to pay.
-	6.Yape transfers the money to the YapeSpots.
-	7.Yape displays Payment Confirmation screen.
-	8. User presses on like button.
-	9. User presses on review button.
-	10. User writes a review and presses send.
+1. User opens Yape app.
+2. User logs in.
+3. User presses on QR scanner.
+4. Yape scans the YapeSpot’s QR code.
+5. User inputs the amount of money to pay.
+6. Yape transfers the money to the YapeSpots.
+7. Yape displays Payment Confirmation screen.
+8. User presses on like button.
+9. User presses on review button.
+10. User writes a review and presses send.
 
 #### End User Case UC03
 
