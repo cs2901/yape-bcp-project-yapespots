@@ -19,8 +19,8 @@
 14. Yape displays all near restaurants and bars.
 #### End User Case UC01
 #### Extensions:
-7.1 User does not enable GPS service.
-7.a.1 Yape displays random location.
+7. 1 User does not enable GPS service.
+	 7.1. 1 Yape displays random location.
 Resume at step 9
 
 ## **UC02** - “Guest” user search for a YapeSpot
@@ -74,8 +74,8 @@ Resume at step 9
 
 #### End User Case UC04
 #### Extensions:
-7.1 User does not enable GPS service.
-7.a.1 Yape displays random location.
+7. 1 User does not enable GPS service.
+	 7.1. 1 Yape displays random location.
 Resume at step 9
 
 ## **UC05** - Locate near hotels
@@ -97,8 +97,8 @@ Resume at step 9
 
 #### End User Case UC05
 #### Extensions:
-7.1 User does not enable GPS service.
-	7.a.1 Yape displays random location.
-	Resume at step 9
+7. 1 User does not enable GPS service.
+	 7.1. 1 Yape displays random location.
+Resume at step 9
 
 
