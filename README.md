@@ -2,7 +2,7 @@
 
 ## 1. Project General Information
 
-## 2. User Cases
+## 2. Use Cases
 
 ## 3. Non-functional requirements
 
