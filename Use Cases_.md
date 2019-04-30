@@ -1,4 +1,4 @@
-# Use Cases:
+﻿# Use Cases:
 ## **UC01** - Filter Restaurant & Bar
 ### **System:** YapeSpots
 ### **User:** Yape User
@@ -20,7 +20,7 @@
 #### End User Case UC01
 #### Extensions:
 7. 1 User does not enable GPS service.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7.a.1 Yape displays random location.
+7.a.1 Yape displays random location.
 Resume at step 9
 
 ## **UC02** - “Guest” user search for a YapeSpot
@@ -75,7 +75,7 @@ Resume at step 9
 #### End User Case UC04
 #### Extensions:
 7. 1 User does not enable GPS service.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7.a.1 Yape displays random location.
+7.a.1 Yape displays random location.
 Resume at step 9
 
 ## **UC05** - Locate near hotels
@@ -98,6 +98,7 @@ Resume at step 9
 #### End User Case UC05
 #### Extensions:
 7. 1 User does not enable GPS service.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7.a.1 Yape displays random location.
+7.a.1 Yape displays random location.
 Resume at step 9
+
 
