@@ -21,6 +21,8 @@ All the use cases are available [here.](/documentation/use_case.md)
 
 ## 3. Non-functional requirements
 
+All the non-functional requirements are available [here.](/documentation/NFR.md)
+
 ## 4. Glossary
 
 * **Yape:**
