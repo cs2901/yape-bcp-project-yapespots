@@ -48,3 +48,11 @@ It is a bidimensional code that codifies and storage data (e.g. a identifier num
 Is a localization position satellite-based that provides latitude, longitude, and altitude.
 
 ## 5. Product survey
+
+### 5.1 Sustentation
+
+Sustentation is available [here.](/documentation/Product_survey/Product_Survey_Sustentation.md)
+
+### 5.2 Shadowing
+
+The results of shadowing application is [here.](/documentation/Product_survey/yape_spots.pdf)
