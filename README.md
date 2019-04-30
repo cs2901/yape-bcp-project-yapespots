@@ -3,6 +3,7 @@
 ## 1. Project General Information
 
 ## 2. Use Cases
+All the use cases are available [there.](/documentation/use_case.md)
 
 ## 3. Non-functional requirements
 
