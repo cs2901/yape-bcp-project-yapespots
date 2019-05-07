@@ -9,6 +9,8 @@ People between the age of 18 and 34, who have a BCP, BBVA or Interbank account a
 
 Make business that have Yape (Yape spots) visible to the Yape community.
 
+# User Guide
+
 ## 2. Requirements
 **User stories:**
 
@@ -60,10 +62,20 @@ Sustentation is available [here.](/documentation/Product_survey/Product_Survey_S
 
 The results of shadowing application is [here.](/documentation/Product_survey/yape_spots.pdf)
 
+# Developer Guide
+
 ## 6. Components Diagram
 
 The components diagram can be found [here.](documentation/Components_Diagram/Components_Diagram.md)
 
+## 7. Features list
+
+The feature list can be found [here.](documentation/features.md)
+
 ## 8. Code Structure
 
-The code structure can be found [here](documentation/code_structure.md).
+The code structure can be found [here.](documentation/code_structure.md).
+
+## 9. Gantt
+
+The Gantt chart can be found [here.](documentation/Gantt.pdf)
