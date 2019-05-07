@@ -9,15 +9,16 @@ People between the age of 18 and 34, who have a BCP, BBVA or Interbank account a
 
 Make business that have Yape (Yape spots) visible to the Yape community.
 
+## 2. Requirements
 **User stories:**
 
-All the user stories are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/labels/type.story).
+The requirements' list in form of user stories are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/labels/type.story).
 
-And the prioritizing phase of them are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/projects/1).
+Also the requirements’ prioritizing according to their necessity are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/projects/1).
 
 
 ## 2. Use Cases
-All the use cases are available [here.](/documentation/use_case.md)
+All the use cases are available [here](/documentation/use_case.md).
 
 ## 3. Non-functional requirements
 
