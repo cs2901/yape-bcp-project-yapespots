@@ -63,3 +63,7 @@ The results of shadowing application is [here.](/documentation/Product_survey/ya
 ## 6. Components Diagram
 
 The components diagram can be found [here.](documentation/Components_Diagram/Components_Diagram.md)
+
+## 8. Code Structure
+
+The code structure can be found [here](documentation/code_structure.md).
