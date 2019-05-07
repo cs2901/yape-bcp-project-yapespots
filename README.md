@@ -58,3 +58,7 @@ Sustentation is available [here.](/documentation/Product_survey/Product_Survey_S
 ### 5.2 Shadowing
 
 The results of shadowing application is [here.](/documentation/Product_survey/yape_spots.pdf)
+
+## 6. Components Diagram
+
+The components diagram can be found [here.](documentation/Components_Diagram/Components_Diagram.md)
