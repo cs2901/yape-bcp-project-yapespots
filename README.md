@@ -1,5 +1,7 @@
 # Yape Spots
 
+## Integrantes
+
 ## 1. Project General Information
 **Target user profile:**
 
@@ -83,5 +85,3 @@ The Gantt chart can be found [here.](documentation/Gantt.pdf)
 ## 10. Mockup
 
 The Mockup can be found [here](https://projects.invisionapp.com/prototype/main-Activity-cjuq7glmm003dh001vjrrcyj3/play/7c7e3056)
-
-
