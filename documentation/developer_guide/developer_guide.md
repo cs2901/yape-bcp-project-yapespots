@@ -46,6 +46,12 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 ## 4. FAQ
 
+1. What is the recommended IDE to use to develop the Android app?
+* Android Studio, you can download it from [here](https://developer.android.com/studio).
+
+2. How to generate an API key to use Google Maps API?
+* Use this [information](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
 ## 5. Glossary
 
   - Yape: A free mobile app powered by Banco de Credito del Perú (BCP) developed in 2017, where you can transfer money to another account without know the account number. Also, you can pay in merchants. You can pay through QR (Quick Response) code.
