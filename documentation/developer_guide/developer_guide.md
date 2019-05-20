@@ -53,7 +53,7 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 * Use this [information](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 3. How the data is going to maintain updated?
-*  We are going to maintain the data updated by a concept called crowdsourcing. In simple words, It means that the community is going to maintent the data updated by themselves. Every time you find a Yape spot that does not longer uses Yape as a payment method, you can report it and if one place gets many reports it is going to get removed from the database.
+*  We are going to maintain the data updated by a concept called crowdsourcing. In simple words, It means that the community is going to maintain the data updated by themselves. Every time you find a Yape spot that does not longer uses Yape as a payment method, you can report it and if one place gets many reports it is going to get removed from the database.
 
 ## 5. Glossary
 
@@ -72,4 +72,3 @@ Yape spots is a project that focuses on giving users the capacity to find more b
   - QR (Quick Response): It is a bidimensional code that codifies and storage data (e.g. a identifier number, a website address, a plain number, a text, etc).
 
   - GPS (Global Positioning System): Is a localization position satellite-based that provides latitude, longitude, and altitude.
- 
