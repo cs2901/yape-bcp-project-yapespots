@@ -5,83 +5,21 @@
 ## 1. Project General Information
 **Target user profile:**
 
-People between the age of 18 and 34, who have a BCP, BBVA or Interbank account and an smartphone.
+A currently Yape's user, whose people are between the age of 18 and 34, who have a BCP, BBVA or Interbank account and has an smartphone.
 
 **Value proposition:**
 
 Make business that have Yape (Yape spots) visible to the Yape community.
 
-# User Guide
-
-## 2. Requirements
-**User stories:**
-
-The requirements' list in form of user stories are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/labels/type.story).
-
-Also the requirements’ prioritizing according to their necessity are available [here](https://github.com/cs2901/yape-bcp-project-yapespots/projects/1).
-
-
-## 2. Use Cases
-All the use cases are available [here](/documentation/use_case.md).
-
-## 3. Non-functional requirements
-
-All the non-functional requirements are available [here.](/documentation/NFR.md)
-
-## 4. Glossary
-
-* **Yape:**
-A free mobile app powered by Banco de Credito del Perú (BCP) developed in 2017, where you can transfer money to another account without know the account number. Also, you can pay in merchants. You can pay through QR (Quick Response) code.
-
-* **Yapear:**
-Transfer money to another account through Yape’s app.
-
-* **Transfer:**
-A transfer is sending money to a personal or business account.
-
-* **Yape spot:**
-It is a business that accepts payments through Yape’s app, they have a unique QR code to identify them.
-
-* **Yape’s User:**
-It is a user that has access to the Yape’s app, they are logged in.
-
-* **Guest:**
-It is a user who has not logged in to the application, but they can use some restricted features (e.g. search look for nearby Yape Spots).
-
-* **QR (Quick Response):**
-It is a bidimensional code that codifies and storage data (e.g. a identifier number, a website address, a plain number, a text, etc).
-
-* **GPS (Global Positioning System):**
-Is a localization position satellite-based that provides latitude, longitude, and altitude.
-
-## 5. Product survey
-
-### 5.1 Sustentation
-
-Sustentation is available [here.](/documentation/Product_survey/Product_Survey_Sustentation.md)
-
-### 5.2 Shadowing
-
-The results of shadowing application is [here.](/documentation/Product_survey/yape_spots.pdf)
-
-# Developer Guide
-
-## 6. Components Diagram
-
-The components diagram can be found [here.](documentation/Components_Diagram/Components_Diagram.md)
-
-## 7. Features list
-
-The feature list can be found [here.](documentation/features.md)
-
-## 8. Code Structure
-
-The code structure can be found [here.](documentation/code_structure.md).
-
-## 9. Gantt
-
-The Gantt chart can be found [here.](documentation/Gantt.pdf)
-
-## 10. Mockup
+**Mockup**
 
 The Mockup can be found [here](https://projects.invisionapp.com/prototype/main-Activity-cjuq7glmm003dh001vjrrcyj3/play/7c7e3056)
+
+## 2. User Guide
+
+The user guide can be found [here](/documentation/user_guide/user_guide.md).
+
+## 3. Developer Guide
+
+The developer guide can be found [here](/documentation/developer_guide/developer_guide.md).
+
