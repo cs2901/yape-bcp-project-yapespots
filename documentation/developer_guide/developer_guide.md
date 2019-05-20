@@ -53,7 +53,7 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 * Use this [information](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
 3. How the data is going to maintent updated?
-*  We are going to maintent the data updated by a concept called cloudsourcing. In simple words, It means that the community is going to maintent the data updated by themselves. Every time you find a Yape spot that does not longer uses Yape as a payment method, you can report it and if one place gets many reports it is going to get removed from the database.
+*  We are going to maintent the data updated by a concept called crowdsourcing. In simple words, It means that the community is going to maintent the data updated by themselves. Every time you find a Yape spot that does not longer uses Yape as a payment method, you can report it and if one place gets many reports it is going to get removed from the database.
 
 ## 5. Glossary
 
