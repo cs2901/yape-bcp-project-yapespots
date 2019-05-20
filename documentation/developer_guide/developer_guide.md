@@ -38,7 +38,7 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 #### Architecture Diagram
 
-![Image of Yaktocat](/Architecture_Diagram/architecture_diagram.png)
+![Architecture diagram](/documentation/developer_guide/Architecture_Diagram/architecture_diagram.png)
 
 #### Components Diagram
 
