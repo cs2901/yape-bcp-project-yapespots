@@ -7,7 +7,7 @@ A currently Yape's user, whose people are between the age of 18 and 34, who have
 
 **Value proposition:**
 
-Make business that have Yape (Yape spots) visible to the Yape community. Making easir for the users to find locals that use Yape and increasing the number of clients that a business can get only for the use of Yape.
+Make business that have Yape (Yape spots) visible to the Yape community. Making easier for the users to find locals that use Yape and increasing the number of clients that a business can get only for the use of Yape.
 
 **Mockup**
 

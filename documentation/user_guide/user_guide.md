@@ -1,4 +1,3 @@
-
 # User Guide
 
 ## 1. Introduction
