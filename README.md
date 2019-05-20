@@ -1,15 +1,13 @@
 # Yape Spots
 
-## Integrantes
-
 ## 1. Project General Information
 **Target user profile:**
 
-A currently Yape's user, whose people are between the age of 18 and 34, who have a BCP, BBVA or Interbank account and has an smartphone.
+A currently Yape's user, whose people are between the age of 18 and 34, who have Yape in their smartphones.
 
 **Value proposition:**
 
-Make business that have Yape (Yape spots) visible to the Yape community.
+Make business that have Yape (Yape spots) visible to the Yape community. Making easir for the users to find locals that use Yape and increasing the number of clients that a business can get only for the use of Yape.
 
 **Mockup**
 
@@ -22,4 +20,3 @@ The user guide can be found [here](/documentation/user_guide/user_guide.md).
 ## 3. Developer Guide
 
 The developer guide can be found [here](/documentation/developer_guide/developer_guide.md).
-
