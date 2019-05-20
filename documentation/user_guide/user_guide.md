@@ -78,19 +78,22 @@ B. Non-Functional
 1. What is going to show me the map of Yape Spots?
   -  The map will show you  business that use Yape as payment method
 
-2. What types of filters can I apply in Yape Spots?
+2. Should I be logged in to see the map?
+  - No, if you are a user you can access without logging in.  
+
+3. What types of filters can I apply in Yape Spots?
  - Youc can filter by category (restaurant, bar, market, etc), by distance and by business hours
 
-3. What happend if a Yape spot does not use Yape?
+4. What happend if a Yape spot does not use Yape?
  - If a Yape Spot doesn't use Yape, you can report it. If a Yape spot is reported many times it will be removed from the database
 
-4. How can I report a Yape spot?
+5. How can I report a Yape spot?
  - You just need to search for the Yape spot, click on its information and the button to report will be there.
 
-5. How many Yape spots exist today?
+6. How many Yape spots exist today?
  - There are at least 5000 Yape spots and this cifer is increasing everyday
 
-6. What is the minimum required versio of Android?
+7. What is the minimum required versio of Android?
  - You need at lesat the version 4.4 of Android to run the map of Yape spot. However, this is the minimum required version for Yape, so if you can run Yape, you can use Yape spots.    
 
 ## 5. Glossary
