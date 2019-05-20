@@ -8,8 +8,8 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 ### Contributions to the User Guide:
 
-- As a developer i helped to discuss each of the requirements with all members from the team.
-- As a developer i proposed one question for the FAQ section.
+- As a developer I helped to discuss each of the requirements with all members from the team.
+- As a developer I proposed one question for the FAQ section.
     - Should I be logged in to see the map?
 
 ### Contributions to the Developer Guide:
