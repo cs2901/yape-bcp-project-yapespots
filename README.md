@@ -23,5 +23,5 @@ The developer guide can be found [here](/documentation/developer_guide/developer
 
 ## 4. Project Portfolio Page
 
-The Project Portfolio Page can be found [here](/documentation/developer_guide/developer_guide.md).
+The Project Portfolio Page can be found [here](/documentation/project_portfolio_pages/ppp.md).
 
