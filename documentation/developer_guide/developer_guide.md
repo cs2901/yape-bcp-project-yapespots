@@ -59,6 +59,14 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 #### Interactions Between Components
 
+![Add to favorites](/documentation/developer_guide/Components_interaction/AddFavorite.jpg)
+
+
+![Filter List of Spots](/documentation/developer_guide/Components_interaction/FilterList.jpg)
+
+
+![Search using search bar](/documentation/developer_guide/Components_interaction/SearchBar.jpg)
+
 ## 4. FAQ
 
 1. What is the recommended IDE to use to develop the Android app?
