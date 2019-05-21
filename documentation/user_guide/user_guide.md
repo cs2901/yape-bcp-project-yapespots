@@ -48,15 +48,23 @@ B. Non-Functional
 
 ## 3. Features
 
+- Implement data base
+
 - Move the map feature
 
 - Show Yape spots in map feature
 
+- Report a Yape spots feature
+
+- Directions feature
+
+- Like Yape spots feature
+
 - Center the map feature
 
-- See closest Yape spots feature
-
 - Search feature
+
+- See closest Yape spots feature
 
 - Filter Yape spots feature
 
@@ -65,12 +73,6 @@ B. Non-Functional
 - Favorite Yape spots feature
 
 - Not log in Yape Spots feature
-
-- Report a Yape spot feature
-
-- Waze feature
-
-- Like Yape spots feature
 
 
 ## 4. FAQ
@@ -146,7 +148,7 @@ B. Non-Functional
 
 ##### 6.1.1 Nice to Have
 
-- As a user, I can see if a Yaoe spot is open or close
+- As a user, I can see if a Yape spot is open or close
 
 - As a user, I can call a Yape spot
 

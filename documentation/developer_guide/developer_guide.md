@@ -49,13 +49,51 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 ### Architecture
 
-#### Class Diagrams
+#### Class Diagram
+
+The general class diagram of the project can be found [here](/documentation/developer_guide/Class_Diagrams/General_Class_Diagram.jpg).
 
 #### Architecture Diagram
 
 ![Architecture diagram](/documentation/developer_guide/Architecture_Diagram/architecture_diagram.png)
 
-#### Components Diagram
+#### Components List
+
+* **Data base component**  
+  i. Description of component  
+  The data base component is the responsable for receive queries and respond them with data obtained from the different sources Google API, Local or firebase.  
+  ii. Class diagram of component  
+  ![Data_Base_Component](/documentation/developer_guide/Class_Diagrams/Data_Base_Component.png)
+
+* **Detail place component**  
+  i. Description of component  
+  This component is the responsable for show detailed information related to a Yape Spot, also have to made the logic of report places.  
+  ii. Class diagram of component  
+  ![Detail_Place_Component](/documentation/developer_guide/Class_Diagrams/Detail_Place_Component.png)
+
+* **Filters component**  
+  i. Description of component  
+  This component is the responsable for made the filters of the information that are going to be displayed to the user, that mean this component need to made the queries to the data base component.  
+  ii. Class diagram of component  
+  ![Filters_Component](/documentation/developer_guide/Class_Diagrams/Filters_Component.png)
+
+* **Home component**  
+  i. Description of component  
+  This component is the responsable of emulate the view of the base Yape app and the new button that let the user access to the Yape Spot extension.  
+  ii. Class diagram of component  
+  ![Home_Component](/documentation/developer_guide/Class_Diagrams/Home_Component.png)
+
+* **Map component**  
+  i. Description of component  
+  This component is the responsable of draw and show to the user the map, in a certain sense this is the main component of our proposal.  
+  ii. Class diagram of component  
+  ![Map_Component](/documentation/developer_guide/Class_Diagrams/Map_Component.jpg)
+
+* **Search component**  
+  i. Description of component  
+  This component is the responsable of made queries related to texts to the database component and shows the result to the user.  
+  ii. Class diagram of component  
+  ![Search_Component](/documentation/developer_guide/Class_Diagrams/Search_Component.png)
 
 #### Interactions Between Components
 
