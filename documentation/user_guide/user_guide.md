@@ -1,4 +1,4 @@
-# User Guide
+﻿# User Guide
 
 ## 1. Introduction
 
@@ -93,8 +93,10 @@ B. Non-Functional
 6. How many Yape spots exist today?
  - There are at least 5000 Yape spots and this cifer is increasing everyday
 
-7. What is the minimum required versio of Android?
- - You need at lesat the version 4.4 of Android to run the map of Yape spot. However, this is the minimum required version for Yape, so if you can run Yape, you can use Yape spots.    
+7. What is the minimum required version of Android?
+ - You need at least the version 4.4 of Android to run the map of Yape spot. However, this is the minimum required version for Yape, so if you can run Yape, you can use Yape spots.    
+ 8. How complicated is it to use Yape Spots?
+ - Yape spots is very easy to use because it uses a friendly interface similar to important applications such as Google Maps, Waze, etc.
 
 ## 5. Glossary
 
