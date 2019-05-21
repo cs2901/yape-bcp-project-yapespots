@@ -55,6 +55,9 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 3. How the data is going to maintain updated?
 *  We are going to maintain the data updated by a concept called crowdsourcing. In simple words, It means that the community is going to maintain the data updated by themselves. Every time you find a Yape spot that does not longer uses Yape as a payment method, you can report it and if one place gets many reports it is going to get removed from the database.
 
+4. How much larger would Yape be with the map implementation?
+*  By reviewing other applications with similar functionalities we got that the app would possibly increase from 34Mb to 47Mb.
+
 ## 5. Glossary
 
   - Yape: A free mobile app powered by Banco de Credito del Perú (BCP) developed in 2017, where you can transfer money to another account without know the account number. Also, you can pay in merchants. You can pay through QR (Quick Response) code.
