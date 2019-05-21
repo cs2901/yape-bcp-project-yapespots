@@ -6,29 +6,44 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 ## 2. Features
 
-- Move the map feature
+- Implement data base  
+  To implement the data base we are going to use firebase, because it let us save on time and abstracting the data layer to a certain extend, also give to us the opportunity to query for information to the API of Google. Other option considered was create our own API res  offering us more customization however this approach require more time to be realized.
 
-- Show Yape spots in map feature
+- Move the map feature  
+  This feature is  going to be implemented using the SDK of Google Maps because it let us have access to the implementation related to Google Maps, so the functionality of the app is going to be similar to Google Maps app. Other option considered was use mapbox; however, if we choose it we can't have access to all the data of Google Maps.
 
-- Center the map feature
+- Show Yape spots in map feature  
+  This feature is going to be implemented using the API of Google Maps in order to query all the places that exist in a particular area, and using the SDK of Google Maps to draw them. Other option considered was use mapbox; however, it was dismissed because the idea mentioned before.
 
-- See closest Yape spots feature
+- Report a Yape spots feature  
+  This feature is going to be implemented using firebase, because it let use CRUD our data base in an easy way. Other option considered was create our own API res to manage all the data included the reports; however, it was dismissed because the idea mentioned before.
 
-- Search feature
+- Directions feature  
+  This feature is about send information of a place to external apps of navigation (e.g. Google Maps, Waze, Uber, etc.), it is going to be implemented using implicit intents because it let us doesn't specify the exact app where the directions will go. Other approach considered was use explicit intents, however it implies create specifics button for each app.
 
-- Filter Yape spots feature
+- Like Yape spots feature  
+  Similar to Report a Yape spots feature, this feature is going to be implemented using firebase, also for the same reason. Other option considered was also create our own API res; however, it was dismissed because the idea mentioned before.
 
-- Filter in map feature
+- Center the map feature  
+  This feature is going to be implemented using the SDK of Google Maps, because it already has implementation related to that point. Other option was use mapbox; however, it was dismissed because we need access to the database of Google Maps.
 
-- Favorite Yape spots feature
+- Search feature  
+  This feature is going to be implemented using the API of Google Maps, because it give to us the opportunity to query for information, in this case a search by text. Other option considered was create our own API res  offering us more customization however this approach require more time to be realized.
 
-- Not log in Yape Spots feature
+- See closest Yape spots feature  
+  Similar to Show Yape spots feature, this feature is going to be implemented using the API of Google Maps in order to query all the places that exist in a particular area, and using the SDK of Google Maps to draw them. Other option considered was use mapbox; however, it was dismissed because it doesn't give to us access to a data base of places.
 
-- Report a Yape spot feature
+- Filter Yape spots feature  
+  Similar to all features related to query information this feature is going to be implemented using the API of Google Maps. Other proposition considered was implemented our own API res; however, as discussed above it require a lot of time.
 
-- Waze feature
+- Filter in map feature  
+  Similar to the Filte Yape spots feature, this feature is going to be implemented using the API of Google Maps to query the information, and the SDK of Google Maps to draw it. Other option considered was create our own API res and use mapbox; however, it was dismissed because the reason mentioned before.
 
-- Like Yape spots feature
+- Favorite Yape spots feature  
+  This feature is going to be implemented using the shared preference interface of Android, because it let us save that info in the cache of the application. Other option considered was add the list of favorite Yape spots to our database; however, it was dismissed because with that approach our database will grow exponentially.
+
+- Not log in Yape Spots feature  
+  This feature is going to be implemented creating an additional view and presenter of the map component for the guess user, because this approach isolate the features related to a logged user. Other option considered was adapt the originals views and presenter of the map component; however, it was dismissed because could create security gaps.
 
 ## 3. Design
 
@@ -63,4 +78,3 @@ Yape spots is a project that focuses on giving users the capacity to find more b
   - QR (Quick Response): It is a bidimensional code that codifies and storage data (e.g. a identifier number, a website address, a plain number, a text, etc).
 
   - GPS (Global Positioning System): Is a localization position satellite-based that provides latitude, longitude, and altitude.
-
