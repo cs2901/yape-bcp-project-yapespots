@@ -111,6 +111,14 @@ Because of the size of the diagram we divided it into components and we draw the
 
 #### Interactions Between Components
 
+![Add to favorites](/documentation/developer_guide/Components_interaction/AddFavorite.png)
+
+
+![Filter By Type In Map](/documentation/developer_guide/Components_interaction/FilterByTypeInMap.png)
+
+
+![Search using search bar](/documentation/developer_guide/Components_interaction/SearchBar.png)
+
 ## 4. FAQ
 
 1. What is the recommended IDE to use to develop the Android app?
