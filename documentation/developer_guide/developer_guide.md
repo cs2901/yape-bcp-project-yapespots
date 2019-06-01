@@ -51,7 +51,7 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
 #### Class Diagram
 
-The general class diagram of the project can be found [here](/documentation/developer_guide/Class_Diagrams/General_Class_Diagram.jpg).
+Because of the size of the diagram we divided it into components and we draw the class diagram of each one.
 
 #### Architecture Diagram
 
@@ -59,51 +59,65 @@ The general class diagram of the project can be found [here](/documentation/deve
 
 #### Components List
 
-* **Data base component**  
-  i. Description of component  
-  The data base component is the responsable for receive queries and respond them with data obtained from the different sources Google API, Local or firebase.  
-  ii. Class diagram of component  
-  ![Data_Base_Component](/documentation/developer_guide/Class_Diagrams/Data_Base_Component.png)
+* **Database Interactor component**  
+  **i. Description of component**  
+  The data base component is the responsable for receive queries and respond them with data obtained from the different sources Google API, Local or firebase.
+  It are going to be used by other components.  
+  **ii. Class diagram of component**  
+  ![Database_Interactor_Component](/documentation/developer_guide/Class_Diagrams/Database_Interactor_Component.png)
 
 * **Detail place component**  
-  i. Description of component  
+  **i. Description of component**  
   This component is the responsable for show detailed information related to a Yape Spot, also have to made the logic of report places.  
-  ii. Class diagram of component  
+  **ii. Class diagram of component**  
   ![Detail_Place_Component](/documentation/developer_guide/Class_Diagrams/Detail_Place_Component.png)
 
 * **Filters component**  
-  i. Description of component  
-  This component is the responsable for made the filters of the information that are going to be displayed to the user, that mean this component need to made the queries to the data base component.  
-  ii. Class diagram of component  
+  **i. Description of component**  
+  This component is the responsable for made the filters of the information that are going to be displayed to the user in the map, that mean this component need to made the queries to the place component, who have to made it to Database Interactor component.  
+  **ii. Class diagram of component**  
   ![Filters_Component](/documentation/developer_guide/Class_Diagrams/Filters_Component.png)
 
+* **Advanced Filters component**  
+  **i. Description of component**  
+  This component is the responsable for made the filters of the information that are going to be displayed on a list to the user, in order to do that it are going to extends some of the classes of the Filters Component. due to the advanced filters component need to return information of all the Yape Spots and not only of the nearest in to the user, this component needs to connect directly with the Database Interactor Component.  
+  **ii. Class diagram of component**  
+  ![Advanced_Filters_Component](/documentation/developer_guide/Class_Diagrams/Advanced_Filters_Component.png)
+
 * **Home component**  
-  i. Description of component  
+  **i. Description of component**  
   This component is the responsable of emulate the view of the base Yape app and the new button that let the user access to the Yape Spot extension.  
-  ii. Class diagram of component  
+  **ii. Class diagram of component**  
   ![Home_Component](/documentation/developer_guide/Class_Diagrams/Home_Component.png)
 
 * **Map component**  
-  i. Description of component  
-  This component is the responsable of draw and show to the user the map, in a certain sense this is the main component of our proposal.  
-  ii. Class diagram of component  
-  ![Map_Component](/documentation/developer_guide/Class_Diagrams/Map_Component.jpg)
+  **i. Description of component**  
+  This component is the responsable of draw and show the map to the user, in a certain sense this is the main component of our proposal.  
+  It also connect with the Location class of Google Maps because we are going to use the SDK of Google in order to take a similar interface as Google Maps.  
+  **ii. Class diagram of component**  
+  ![Map_Component](/documentation/developer_guide/Class_Diagrams/Map_Component.png)
 
 * **Search component**  
-  i. Description of component  
-  This component is the responsable of made queries related to texts to the database component and shows the result to the user.  
-  ii. Class diagram of component  
+  **i. Description of component**  
+  This component is the responsable of made queries related to Name of Yape Spots to the Database Interactor component and shows the result to the user. Also the user can apply filters to specify the search, so this component connect with the Advanced Filters component.  
+  **ii. Class diagram of component**  
   ![Search_Component](/documentation/developer_guide/Class_Diagrams/Search_Component.png)
+
+* **Model component**  
+  **i. Description of component**  
+  This component is the container component of the individual class we are going to use in the project. Such as Place, User, LatLng (localization system of Google) and Login.  
+  **ii. Class diagram of component**  
+  ![Search_Component](/documentation/developer_guide/Class_Diagrams/Model_Component.png)
 
 #### Interactions Between Components
 
-![Add to favorites](/documentation/developer_guide/Components_interaction/AddFavorite.jpg)
+![Add to favorites](/documentation/developer_guide/Components_interaction/AddFavorite.png)
 
 
-![Filter List of Spots](/documentation/developer_guide/Components_interaction/FilterList.jpg)
+![Filter By Type In Map](/documentation/developer_guide/Components_interaction/FilterByTypeInMap.png)
 
 
-![Search using search bar](/documentation/developer_guide/Components_interaction/SearchBar.jpg)
+![Search using search bar](/documentation/developer_guide/Components_interaction/SearchBar.png)
 
 ## 4. FAQ
 
