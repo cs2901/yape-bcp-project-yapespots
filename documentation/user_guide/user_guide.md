@@ -195,10 +195,12 @@ B. Non-Functional
 
 ###  6.2 User Cases
 
-#### UC01 - Filter Restaurant & Bar
-##### System: YapeSpots
-##### User: Yape User
-##### MSS
+### Prose version
+
+#### **UC01** - Filter Restaurant & Bar
+##### **System:** YapeSpots
+##### **User:** Yape User
+##### **MSS**
 1. User opens Yape app.
 2. User logs in
 3. User opens YapeSpots
@@ -301,3 +303,11 @@ Resume at step 9
 
  7.1. 1 Yape displays random location.
 Resume at step 9
+
+### UML version
+
+#### Filter on map use case
+![Filter_On_Map_Use_Case](use_cases/Filter_On_Map_Use_Case.png)
+
+#### Search use case
+![Search_Use_Case](use_cases/Search_Use_Case.png)
