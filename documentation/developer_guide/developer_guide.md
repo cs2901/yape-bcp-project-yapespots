@@ -70,7 +70,7 @@ Because of the size of the diagram we divided it into components and we draw the
   **i. Description of component**  
   This component is the responsible of showing the login screen and allow you to access as an existing or guest user.  
   **ii. Class diagram of component**  
-  ![Login Component](documentation/developer_guide/Class_Diagrams/Login_Component.png)
+  ![Login Component](/documentation/developer_guide/Class_Diagrams/Login_Component.png)
 
 * **Filters component**  
   **i. Description of component**  
