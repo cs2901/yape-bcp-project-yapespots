@@ -66,11 +66,11 @@ Because of the size of the diagram we divided it into components and we draw the
   **ii. Class diagram of component**  
   ![Database_Interactor_Component](/documentation/developer_guide/Class_Diagrams/Database_Interactor_Component.png)
 
-* **Detail place component**  
+* **Login component**  
   **i. Description of component**  
-  This component is the responsable for show detailed information related to a Yape Spot, also have to made the logic of report places.  
+  This component is the responsible of showing the login screen and allow you to access as an existing or guest user.  
   **ii. Class diagram of component**  
-  ![Detail_Place_Component](/documentation/developer_guide/Class_Diagrams/Detail_Place_Component.png)
+  ![Login Component](/documentation/developer_guide/Class_Diagrams/Login_Component.png)
 
 * **Filters component**  
   **i. Description of component**  
