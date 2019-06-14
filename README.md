@@ -25,3 +25,9 @@ The developer guide can be found [here](/documentation/developer_guide/developer
 
 The Project Portfolio Page can be found [here](/documentation/project_portfolio_pages/ppp.md).
 
+## 5. Code Quality Report
+
+The Code Quality Report can be found [here](https://sonarcloud.io/dashboard?id=yape-spots-team_yape-app-sonar2).  
+
+Also here is an screenshot of it:
+![codeQuality](documentation/codeQuality.png)
