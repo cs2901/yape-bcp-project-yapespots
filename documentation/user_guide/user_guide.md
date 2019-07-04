@@ -72,6 +72,18 @@ B. Non-Functional
 
 - Not log in Yape Spots feature
 
+- Call Yape Spots feature
+
+- Share Yape Spot feature
+
+- Yape Spot's details feature
+
+- Geolocalization feature
+
+- Make request policies feature
+
+- Login feature
+
 ## 4. FAQ
 
 1. What is going to show me the map of Yape Spots?
