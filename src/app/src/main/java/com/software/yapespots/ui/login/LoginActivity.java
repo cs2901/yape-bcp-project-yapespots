@@ -1,8 +1,10 @@
 package com.software.yapespots.ui.login;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -13,12 +15,13 @@ import com.software.yapespots.ui.login.view.LoginView;
 import com.software.yapespots.ui.login.presenter.LoginPresenter;
 import com.software.yapespots.ui.login.presenter.LoginPresenterImpl;
 import com.software.yapespots.ui.map.MapActivity;
+import com.software.yapespots.ui.search.SearchActivity;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
     private LoginPresenter presenter;
     private Button[] numeros;
     private ImageButton gomap;
-
+    private boolean gotoSearch;
     private ImageView[] circulos;
     public int cont = 0;
 
@@ -65,6 +68,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
         intent.putExtra("logged", true);
         startActivity(intent);
+
     }
 
     private void init() {
@@ -122,6 +126,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
             Intent intent1 = new Intent(this, MapActivity.class);
             intent1.putExtra("logged", false);
             startActivity(intent1);
+
         });
     }
 

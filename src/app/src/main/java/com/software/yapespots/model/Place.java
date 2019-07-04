@@ -1,5 +1,7 @@
 package com.software.yapespots.model;
 
+import com.software.yapespots.model.local.FavoritePlace;
+
 import java.util.ArrayList;
 
 public class Place {
@@ -9,7 +11,18 @@ public class Place {
     private String name;
     private ArrayList<String> type;
     private Boolean opennow;
-    //private DetailPlace detailPlace;
+    public Place(){}
+
+    public Place(FavoritePlace favorite){
+        this.id = favorite.id;
+        this.lat = String.valueOf(favorite.lat);
+        this.lng = String.valueOf(favorite.lng);
+        this.name = favorite.name;
+        this.type = new ArrayList<String>();
+        type.add(favorite.type);
+        this.opennow = favorite.opennow;
+
+    }
 
     public Boolean getOpennow(){ return opennow;}
 
@@ -32,6 +45,7 @@ public class Place {
     }
 
     public String getId() {
+
         return id;
     }
 
@@ -55,6 +69,16 @@ public class Place {
         this.lng = lng;
     }
 
+    public boolean searchType(String tipo){
+        boolean exist = false;
+        for(int i=0;i<type.size();i++){
+            if(tipo.equals(type.get(i))){
+                exist = true;
+                break;
+            }
+        }
+        return exist;
+    }
         /*public DetailPlace getDetailPlace() {
             return detailPlace;
         }

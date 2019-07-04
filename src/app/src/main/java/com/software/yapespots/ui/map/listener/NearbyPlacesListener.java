@@ -53,16 +53,14 @@ public class NearbyPlacesListener implements OnCompleteListener<HashMap<String, 
         newplaces = parser.getPlaces();
         activity.places = newplaces;
         for (Place place : newplaces) {
-            /*HashMap<String, Object> geometry = (HashMap<String, Object>) place.get("geometry");
-            HashMap<String, Object> location = (HashMap<String, Object>) geometry.get("location");
-            LatLng position = new LatLng((double) location.get("lat"), (double) location.get("lng"));
-            Marker Marker = this.map.addMarker(new MarkerOptions().position(position).title((String) place.get("name")));
-            //Marker.setTag();*/
-            LatLng position = new LatLng(Double.parseDouble(place.getLat()), Double.parseDouble(place.getLng()));
-            Marker marker = this.map.addMarker(new MarkerOptions().position(position).title((String) place.getName()));
-            marker.setTag(place);
-            //Marker.setIcon(Image.getIcon(context, (ArrayList<String>) place.get("types")));
-            marker.setIcon(Image.getIcon(context, place.getType()));
+            if(place.searchType(activity.tipoactual) || activity.tipoactual.equals("all")){
+                LatLng position = new LatLng(Double.parseDouble(place.getLat()), Double.parseDouble(place.getLng()));
+                Marker marker = this.map.addMarker(new MarkerOptions().position(position).title((String) place.getName()));
+                marker.setTag(place);
+                marker.setIcon(Image.getIcon(context, place.getType()));
+            }
+
         }
+
     }
 }

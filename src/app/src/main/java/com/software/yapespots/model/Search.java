@@ -9,7 +9,6 @@ import android.view.View;
 import com.software.yapespots.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Search {
     boolean SearchRestaurantButtonActivated = false;
@@ -61,7 +60,12 @@ public class Search {
         view.setBackground(drawableFile);
         return SearchFavoritesButtonActivated;
     }
-    public ArrayList<Place> FilterPlaces(String filter, List<Place> places){
+    public void setFalseFavorite(View view, Context ctx){
+        SearchFavoritesButtonActivated = false;
+        Drawable drawableFile = ctx.getResources().getDrawable(R.drawable.icon_border_favorites);
+        view.setBackground(drawableFile);
+    }
+    public ArrayList<Place> FilterPlaces(String filter, ArrayList<Place> places){
         ArrayList<Place> filterPlaces = new ArrayList<>();
         for (int i =0;i<places.size();i++){
             for (int j =0;j<places.get(i).getType().size();j++){

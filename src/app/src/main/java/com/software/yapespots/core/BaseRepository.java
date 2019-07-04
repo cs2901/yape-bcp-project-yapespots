@@ -2,14 +2,14 @@ package com.software.yapespots.core;
 
 import java.util.Collection;
 
-public interface BaseRepository<T, ID> {
+public interface BaseRepository<T, Tid> {
     Collection<T> all();
 
     boolean create(T element);
 
-    boolean update(T element, ID id);
+    boolean update(T element, Tid id);
 
-    boolean delete(ID id);
+    boolean delete(Tid id);
 
-    boolean find(ID id);
+    boolean find(Tid id);
 }
