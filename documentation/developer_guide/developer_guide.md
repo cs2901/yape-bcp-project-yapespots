@@ -135,7 +135,7 @@ Because of the size of the diagram we divided it into components and we draw the
   This component is the responsable of draw and show the map to the user, in a certain sense this is the main component of our proposal.  
   It also connect with the Location class of Google Maps because we are going to use the SDK of Google in order to take a similar interface as Google Maps.  
   **ii. Class diagram of component**  
-  ![Map_Component](/documentation/developer_guide/Class_Diagrams/Map_Component.png)
+  ![Map_Component](/documentation/developer_guide/Class_Diagrams/maps_component.png)
 
 * **Search component**  
   **i. Description of component**  
