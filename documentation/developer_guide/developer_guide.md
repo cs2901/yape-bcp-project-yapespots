@@ -27,32 +27,41 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 - Center the map feature  
   This feature is going to be implemented using the SDK of Google Maps, because it already has implementation related to that point. Other option was use mapbox; however, it was dismissed because we need access to the database of Google Maps.
 
-- Search feature  - Dylan Castro
+- Search feature  - Dylan Castro  
 This feature has been implemented using the API of Google Maps, because it give to us the opportunity to query for information, in this case a search by text. Other option considered was create our own API res  offering us more customization however this approach require more time to be realized.
 
 - See closest Yape spots feature  
   Similar to Show Yape spots feature, this feature is going to be implemented using the API of Google Maps in order to query all the places that exist in a particular area, and using the SDK of Google Maps to draw them. Other option considered was use mapbox; however, it was dismissed because it doesn't give to us access to a data base of places.
 
-- Filter Yape spots feature - Dylan Castro/Ian Arias Schreiber
+- Filter Yape spots feature - Dylan Castro/Ian Arias Schreiber  
   Similar to all features related to query information this feature has been implemented using the API of Google Maps. Other proposition considered was implemented our own API res; however, as discussed above it require a lot of time.
 
-- Filter in map feature  
+- Filter in map feature    
   Similar to the Filte Yape spots feature, this feature has been implemented using the API of Google Maps to query the information, and the SDK of Google Maps to draw it. Other option considered was create our own API res and use mapbox; however, it was dismissed because the reason mentioned before.
 
 - Favorite Yape spots feature  
   This feature has been implemented using the shared preference interface of Android, because it let us save that info in the cache of the application. Other option considered was add the list of favorite Yape spots to our database; however, it was dismissed because with that approach our database will grow exponentially.
 
-- Not log in Yape Spots feature - Jorge Mayna
+- Not log in Yape Spots feature - Jorge Mayna  
   This feature has been implemented creating an additional view and presenter of the map component for the guess user, because this approach isolate the features related to a logged user. Other option considered was adapt the originals views and presenter of the map component; however, it was dismissed because could create security gaps.
 
-- Call Yape Spots feature - Dylan Castro/Ian Arias Schreiber
+- Call Yape Spots feature - Dylan Castro/Ian Arias Schreiber  
   This feature has been implemented by retrieving the YapeSpot's phone number from the Google API using its id to do a query. Then, we use the call indent to switch the screen to the call screen and have the phone number already input.
 
-- Share Yape Spots feature - Ian Arias Schreiber
+- Share Yape Spots feature - Ian Arias Schreiber  
   This feature has been implemented by using the share intent and sending a custom message to an application of choice. In the custom message, the Yape Spot's google map URL is displayed.
  
-- Yape Spot's details - Dylan Castro/Carlos Guerrero
+- Yape Spot's details - Dylan Castro/Carlos Guerrero  
   This feature has been implemented by doing a query to Google API and retrieving the Yape Spot's details (status, photos, name, coordinates, phone number and category).
+  
+- Geolocalization feature  -Jorge Mayna  
+This feature has been implemented by requesting the geolocalization permission from the user and getting the gps coordinates from the user’s cellphone.
+
+- Make requests policies  -Jorge Mayna / Carlos Guerrero  
+This feature has been implemented by finding a formula that makes sure to make a request just when it's needed, saving resources from the system. we make each request by listening the movement and zoom of the camera.
+- Login feature  -Jorge Mayna  
+This feature has been implemented by creating buttons for the numbers and saving in a string each number preseed and comparing the resulting string with the password.
+
 
 ## 3. Design
 
