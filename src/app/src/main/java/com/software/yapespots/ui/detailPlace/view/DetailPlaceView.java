@@ -1,4 +1,4 @@
-package com.software.yapespots.ui.detailplace.view;
+package com.software.yapespots.ui.detailPlace.view;
 
 import com.software.yapespots.core.BaseView;
 

@@ -9,7 +9,7 @@
     android:gravity="center_horizontal"
     android:padding="16dp"
     android:background="@color/quantum_googred"
-    tools:context="com.software.yapespots.ui.detailplace.DetailPlaceActivity">
+    tools:context="com.software.yapespots.ui.detailPlace.DetailPlaceActivity">
 
     <Button
         android:id="@+id/button_open_bottom_sheet"

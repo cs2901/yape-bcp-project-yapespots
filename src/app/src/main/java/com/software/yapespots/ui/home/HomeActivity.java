@@ -28,7 +28,6 @@ public class HomeActivity extends AppCompatActivity implements HomeView {
         presenter.setView(this);
         initView();
     }
-
     private void initView() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

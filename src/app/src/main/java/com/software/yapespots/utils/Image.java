@@ -10,7 +10,7 @@ import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.software.yapespots.R;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Image {
     /* Types */
@@ -31,9 +31,42 @@ public class Image {
         vectorDrawable.draw(canvas);
         return BitmapDescriptorFactory.fromBitmap(bitmap);
     }
-
-    public static BitmapDescriptor getIcon(Context context, List<String> types) {
-        String principalType = types.get(0);
+    public static String getImageType (ArrayList<String> types){
+        String type = "any";
+        for(int i=0; i<types.size();i++){
+            if(restaurant.equals(types.get(i))){
+                type = restaurant;
+                break;
+            }
+            if(lodging.equals(types.get(i))){
+                type = lodging;
+                break;
+            }
+            if(gas_station.equals(types.get(i))){
+                type = gas_station;
+                break;
+            }
+            if(museum.equals(types.get(i))){
+                type = museum;
+                break;
+            }
+            if(hardware_store.equals(types.get(i))){
+                type = hardware_store;
+                break;
+            }
+            if(florist.equals(types.get(i))){
+                type = florist;
+                break;
+            }
+            if(store.equals(types.get(i))){
+                type = store;
+                break;
+            }
+        }
+        return type;
+    }
+    public static BitmapDescriptor getIcon(Context context, ArrayList<String> types) {
+        String principalType = getImageType(types);
 
         if (principalType.equalsIgnoreCase(restaurant)) {
             return bitmapDescriptorFromVector(context, R.drawable.pin_restaurant);
@@ -49,8 +82,11 @@ public class Image {
             return bitmapDescriptorFromVector(context, R.drawable.pin_hardware_store);
         } else if (principalType.equalsIgnoreCase(florist)) {
             return bitmapDescriptorFromVector(context, R.drawable.pin_florist);
-        } else {
+        }else if (principalType.equalsIgnoreCase(store)) {
             return bitmapDescriptorFromVector(context, R.drawable.pin_store);
+        } else {
+            return bitmapDescriptorFromVector(context, R.drawable.pin_anyplace);
         }
     }
+
 }

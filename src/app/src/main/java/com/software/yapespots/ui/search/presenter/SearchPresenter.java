@@ -7,12 +7,12 @@ import com.software.yapespots.core.BasePresenter;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public interface SearchPresenter extends BasePresenter {
-    void applyFilter(List<Place> places, String type);
+    void applyFilter(ArrayList<Place> places, String type);
     Collection<Place> applySearch(String search);
     String getActualType();
     void cleanButtons(View view, Context ctx);
-    void onButtonPressed(View view, List<Place> places);
+    void onButtonPressed(View view, ArrayList<Place> places);
+    void cleanFavorite(View view);
 }

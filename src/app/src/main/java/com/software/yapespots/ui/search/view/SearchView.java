@@ -9,15 +9,14 @@ import com.software.yapespots.core.BaseView;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public interface SearchView extends BaseView {
     Context getBaseContext();
     void onClick(View view);
     void recentSearchedPlaces(Collection<Place> places);
-    void ShowSearchResult(List<Place> places);
+    void ShowSearchResult(ArrayList<Place> places);
     String getCurrentType();
     View findView(int resID);
-
+    void showFavorites();
     void SearchSpots(TextView textView);
 }
