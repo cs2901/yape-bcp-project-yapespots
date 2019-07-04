@@ -154,13 +154,9 @@ B. Non-Functional
 
 - As a user, I can show a list of my favorite spots so that I can see them quickly.
 
-- As a user, I can filter Yape spots by district so that I don't need to move too much
-
 - As a user, I can delete a Yape spot from my favourite list so that I can keep my list of favorites updated.
 
 - As user, I can connect to apps like Waze so that I know how to get there.
-
-- As a user, I can see the time it takes to arrive to a Yape spot  so that I can decide to go or not
 
 - As a user, I can filter the Yape spots directly from the map so that I can remove what I am not interested in seeing.
 
@@ -171,7 +167,7 @@ B. Non-Functional
 - As user, I can share Yape spots with my contacts so that I can set up meetings.
   - Conditions:
     - Share on social media
-    - Open Yape spot on Yape, Uber, Maps, etc.
+    - Open Yape spot's shared link on Yape, Uber, Maps, etc.
 
 ##### 6.1.1 Out of Scope
 
@@ -195,7 +191,7 @@ B. Non-Functional
 
 ### Prose version
 
-#### **UC01** - Filter Restaurant & Bar
+#### **UC01** - Filter Restaurant
 ##### **System:** YapeSpots
 ##### **User:** Yape User
 ##### **MSS**
@@ -210,9 +206,7 @@ B. Non-Functional
 9. User presses search button.
 10. Yape shows search/filter screen.
 11. User presses Restaurant button.
-12. Yape displays all near restaurants.
-13. User presses Bar button.
-14. Yape displays all near restaurants and bars.
+12. Yape displays a list with all near restaurants.
 
 ###### End User Case UC01
 ###### Extensions:
@@ -232,27 +226,33 @@ Resume at step 9
 5. Yape shows search/filter screen.
 6. User presses search bar.
 7. User inputs restaurant’s keyword.
-8. Yape displays all restaurants with the keyword.
+8. Yape displays a list with all restaurants with the keyword.
 
 ###### End User Case UC02
 
-#### **UC03** - Recommend YapeSpot
+#### **UC03** - Like a YapeSpot
 ##### **System:** YapeSpots
 ##### **User:** Yape User
-###### **Preconditions:** User must have consumed something on the YapeSpot and have enough balance to pay it.
 ##### **MSS:**
 1. User opens Yape app.
-2. User logs in.
-3. User presses on QR scanner.
-4. Yape scans the YapeSpot’s QR code.
-5. User inputs the amount of money to pay.
-6. Yape transfers the money to the YapeSpots.
-7. Yape displays Payment Confirmation screen.
-8. User presses on like button.
-9. User presses on review button.
-10. User writes a review and presses send.
+2. User logs in
+3. User opens YapeSpots
+4. Yape loads map at random location
+5. User presses “Center GPS” button
+6. Yape requests to enable your GPS service.
+7. User enables GPS Service.
+8. Yape centers map at current position.
+9.  User selects a YapeSpot.
+10. Yape displays YapeSpot information.
+11. User presses like button.
+
 
 ###### End User Case UC03
+###### Extensions:
+7. 1 User does not enable GPS service.
+
+ 7.1. 1 Yape displays random location.
+Resume at step 9
 
 #### **UC04** - Locate near hotels
 ##### **System:** YapeSpots
@@ -275,10 +275,10 @@ Resume at step 9
 
   7. 1 User does not enable GPS service.
 
-  7.1.1 Yape displays random location.
+    7.1.1 Yape displays random location.
 Resume at step 9
 
-#### **UC05** - Locate near hotels
+#### **UC05** - Add a YapeSpot to favorite
 ##### **System:** YapeSpots
 ##### **User:** Yape User
 ##### **MSS:**
@@ -290,7 +290,7 @@ Resume at step 9
 6. Yape requests to enable your GPS service.
 7. User enables GPS Service.
 8. Yape centers map at current position.
-9.  User selects YapeSpot.
+9.  User selects a YapeSpot.
 10. Yape displays YapeSpot information.
 11. User presses favorite button.
 
