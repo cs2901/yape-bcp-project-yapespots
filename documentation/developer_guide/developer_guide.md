@@ -2,7 +2,9 @@
 
 ## 1. Introduction
 
-Yape spots is a project that focuses on giving users the capacity to find more businesses that use Yape as a payment method and increasing the customers of these businesses. Yape spots uses a map that shows the location of all the businesses with Yape. Also, it provides the user the capacity to filter these businesses and search for others, making easier to find the location of your preference.
+Yape spots is a project that focuses on giving users the capacity to find more businesses that use Yape as a payment method and increasing the customers of these businesses. Yape spots uses a map that shows the location of all the businesses with Yape. Also, it provides the user the capacity to filter these businesses and search for others, making easier to find the location of your preference.  
+
+**Value proposal:** Make businesses that use Yape as a payment method visible to Yape users.
 
 ## 2. Features
 
@@ -34,7 +36,7 @@ Yape spots is a project that focuses on giving users the capacity to find more b
 
   This feature is going to be implemented using the SDK of Google Maps, because it already has implementation related to that point. Other option was use mapbox; however, it was dismissed because we need access to the database of Google Maps.
 
-- Search feature  - Dylan Castro/Jonathan Loza 
+- Search feature  - Dylan Castro/Jonathan Loza
 
 This feature has been implemented using the API of Google Maps, because it give to us the opportunity to query for information, in this case a search by text. Other option considered was create our own API res  offering us more customization however this approach require more time to be realized.
 
@@ -65,11 +67,11 @@ This feature has been implemented using the API of Google Maps, because it give 
 - Share Yape Spots feature - Ian Arias Schreiber
 
   This feature has been implemented by using the share intent and sending a custom message to an application of choice. In the custom message, the Yape Spot's google map URL is displayed.
- 
+
 - Yape Spot's details - Dylan Castro/Carlos Guerrero/Jonathan Loza
 
   This feature has been implemented by doing a query to Google API and retrieving the Yape Spot's details (status, photos, name, coordinates, phone number and category).
-  
+
 - Geolocalization feature  -Jorge Mayna
 
 This feature has been implemented by requesting the geolocalization permission from the user and getting the gps coordinates from the user’s cellphone.
