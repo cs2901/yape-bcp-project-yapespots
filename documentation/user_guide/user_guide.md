@@ -1,4 +1,4 @@
-﻿# User Guide
+# User Guide
 
 ## 1. Introduction
 
@@ -40,7 +40,6 @@ B. Non-Functional
 
 -  The system should not overcome 21MB of user memory space
 
-
 -  The features should be written in java programming language
 
 -  The system should use the API of google maps to recreate the map
@@ -73,17 +72,16 @@ B. Non-Functional
 
 - Not log in Yape Spots feature
 
-
 ## 4. FAQ
 
 1. What is going to show me the map of Yape Spots?
-  -  The map will show you  business that use Yape as payment method
+  -  The map will show you business that use Yape as payment method
 
 2. Should I be logged in to see the map?
   - No, if you are a user you can access without logging in.  
 
 3. What types of filters can I apply in Yape Spots?
- - Youc can filter by category (restaurant, bar, market, etc), by distance and by business hours
+ - Youc can filter by category (restaurant, bar, market, etc), by distance and by if its open or not
 
 4. What happend if a Yape spot does not use Yape?
  - If a Yape Spot doesn't use Yape, you can report it. If a Yape spot is reported many times it will be removed from the database
@@ -92,11 +90,12 @@ B. Non-Functional
  - You just need to search for the Yape spot, click on its information and the button to report will be there.
 
 6. How many Yape spots exist today?
- - There are at least 5000 Yape spots and this cifer is increasing everyday
+ - There are at least 5000 Yape spots and this quantity is increasing everyday
 
 7. What is the minimum required version of Android?
- - You need at least the version 4.4 of Android to run the map of Yape spot. However, this is the minimum required version for Yape, so if you can run Yape, you can use Yape spots.    
- 8. How complicated is it to use Yape Spots?
+ - You need at least the version 4.4 of Android to run the map of Yape spot. However, this is the minimum required version for Yape, so if you can run Yape, you can use Yape spots
+
+8. How complicated is it to use Yape Spots?
  - Yape spots is very easy to use because it uses a friendly interface similar to important applications such as Google Maps, Waze, etc.
 
 ## 5. Glossary
