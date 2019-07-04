@@ -22,11 +22,11 @@ A. Functional
 
 - The system will show some basic information to the user if he select a Yape spot. If the user may want more information he can click the Google map button to see more information
 
-- The system will show a icon to enter the map in the log in screen of Yape. If the user enters by this way to the map, he can only see Yape spots on the map, all other features will be unavailable until he enters to his account
+- The system will show a icon to enter the map in the log in screen of Yape. If the user enters by this way to the map, he can only see Yape spots on the map, features related with user personal information will be unavailable until he enters to his account
 
 - The system will present a search screen to look for specific Yape spots
 
-- The system will allow the user to filter by type of place, if its open or not, district, and distance.
+- The system will allow the user to filter by type of place, if its open or not, and distance.
 
 
 B. Non-Functional
@@ -36,13 +36,10 @@ B. Non-Functional
 
 -  The system should work for smartphones with Android 4.4 or later
 
--  The system should work for smartphones with IOs 10.0 or later
-
 -  The system, in order to respect the privacy of the user, should ask for permission to activate the GPS
 
--  The system should not overcome the 40% of the memory space of YAPE
+-  The system should not overcome 21MB of user memory space
 
--  The system should filter offensive and disrespectful messages and opinions
 
 -  The features should be written in java programming language
 
