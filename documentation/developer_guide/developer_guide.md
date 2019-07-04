@@ -148,6 +148,12 @@ Because of the size of the diagram we divided it into components and we draw the
   This component is the container component of the individual class we are going to use in the project. Such as Place, User, LatLng (localization system of Google) and Login.  
   **ii. Class diagram of component**  
   ![Search_Component](/documentation/developer_guide/Class_Diagrams/Model_Component.png)
+ 
+ * **Favorite component**  
+  **i. Description of component**  
+  This component is the responsible for storing and adding YapeSpots to your list of favorites using a local database. 
+  **ii. Class diagram of component**  
+  ![Favorite Component](/documentation/developer_guide/Class_Diagrams/Favorites_Component.png)
 
 #### Interactions Between Components
 
