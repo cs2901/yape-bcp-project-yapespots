@@ -1,4 +1,4 @@
-package com.software.yapespots.ui.detailplace.presenter;
+package com.software.yapespots.ui.detailPlace.presenter;
 import com.software.yapespots.core.BasePresenter;
 import com.software.yapespots.model.Place;
 

@@ -11,7 +11,7 @@ import java.util.List;
 
 @Dao
 public interface FavoritePlaceDao {
-   /* @Query("SELECT * FROM favoriteplace")
+    @Query("SELECT * FROM favoriteplace")
     List<FavoritePlace> getAll();
 
     @Query("SELECT * FROM favoriteplace WHERE id = :favoritePlaceId")
@@ -21,5 +21,5 @@ public interface FavoritePlaceDao {
     void insertAll(FavoritePlace... favoritePlaces);
 
     @Delete
-    void delete(FavoritePlace favoritePlace);*/
+    void delete(FavoritePlace favoritePlace);
 }

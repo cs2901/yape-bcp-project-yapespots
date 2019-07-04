@@ -18,12 +18,11 @@ import com.software.yapespots.ui.search.view.SearchView;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorActionListener{
 
     private SearchView viewprincipal;
-    private Search searchmodel;
+    public Search searchmodel;
 
     public SearchPresenterImpl(SearchActivity view){
         setView(view);
@@ -31,7 +30,6 @@ public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorAc
     }
 
     public void changeToAdvancedFilter() {
-        /* not implemented yet*/
 
     }
 
@@ -60,7 +58,7 @@ public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorAc
         }
     }
 
-    public void onButtonPressed(View view, List<Place> newplaces ){
+    public void onButtonPressed(View view, ArrayList<Place> newplaces ){
         String tagString = (String) view.getTag();
         boolean showResults;
         cleanButtons(view,viewprincipal.getBaseContext());
@@ -69,6 +67,9 @@ public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorAc
         }
         else if(tagString.equals("favorite")){
             showResults=searchmodel.onFavoritesButtonPressed(view, viewprincipal.getBaseContext());
+            viewprincipal.showFavorites();
+            if(showResults)
+                return;
         }else{
             showResults=searchmodel.onBarButtonPressed(view,viewprincipal.getBaseContext());
         }
@@ -81,14 +82,17 @@ public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorAc
 
     }
 
-    public Collection<Place> applySearch(String search) {
-
-        Collection<Place> places = null;
-
-        return places;
+    @Override
+    public void cleanFavorite(View view) {
+        searchmodel.setFalseFavorite(view,viewprincipal.getBaseContext());
     }
 
-    public void applyFilter(List<Place> places, String type) {
+    public Collection<Place> applySearch(String search) {
+
+        return null;
+    }
+
+    public void applyFilter(ArrayList<Place> places, String type) {
         ArrayList<Place> newplaces = searchmodel.FilterPlaces(type,places);
         viewprincipal.ShowSearchResult(newplaces);
     }
@@ -100,10 +104,9 @@ public class SearchPresenterImpl implements SearchPresenter, TextView.OnEditorAc
 
     @Override
     public boolean onEditorAction(TextView textView, int i, KeyEvent keyEvent) {
-        if(i == EditorInfo.IME_ACTION_SEND){
+        if(i == EditorInfo.IME_ACTION_SEND && textView.getText().length()!= 0){
             viewprincipal.SearchSpots(textView);
-            return true;
         }
-        return false;
+        return true;
     }
 }

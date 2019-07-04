@@ -1,7 +1,8 @@
-package com.software.yapespots.ui.detailplace;
+package com.software.yapespots.ui.detailPlace;
 
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
+import android.graphics.drawable.Drawable;
 
 public class PhotosClass {
     private Bitmap image;
@@ -26,7 +27,7 @@ public class PhotosClass {
         // "RECREATE" THE NEW BITMAP
         Bitmap resizedBitmap = Bitmap.createBitmap(
                 image, 0, 0, width, height, matrix, false);
-        image.recycle();
+        //image.recycle();
         image=resizedBitmap;
     }
 }

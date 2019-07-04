@@ -6,16 +6,12 @@ import android.os.Bundle;
 
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.software.yapespots.model.Marker;
 import com.software.yapespots.R;
 
-public  class LocationOnMove implements LocationListener {
+public class LocationOnMove implements LocationListener {
     MapActivity mapview;
-    Marker marker;
-
     public LocationOnMove(MapActivity map){
         mapview=map;
-        marker = new Marker();
     }
     @Override
     public void onLocationChanged(Location location) {
@@ -28,7 +24,7 @@ public  class LocationOnMove implements LocationListener {
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title("Your Location");
-        markerOptions.icon(marker.bitmapDescriptorFromVector(mapview, R.drawable.marcador));
+        markerOptions.icon(mapview.bitmapDescriptorFromVector(mapview, R.drawable.marcador));
         mapview.currentUserLocationMarker = mapview.mMap.addMarker(markerOptions);
 
 

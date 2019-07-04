@@ -1,4 +1,4 @@
-package com.software.yapespots.ui.detailplace;
+package com.software.yapespots.ui.detailPlace;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
