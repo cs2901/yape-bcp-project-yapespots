@@ -153,7 +153,7 @@ Because of the size of the diagram we divided it into components and we draw the
   **i. Description of component**  
   This component is the responsible for storing and adding YapeSpots to your list of favorites using a local database. 
   **ii. Class diagram of component**  
-  ![Favorite Component](/documentation/developer_guide/Class_Diagrams/Favorite_Component.png)
+  ![Favorite Component](/documentation/developer_guide/Class_Diagrams/Favorites_Component.png)
 
 #### Interactions Between Components
 
